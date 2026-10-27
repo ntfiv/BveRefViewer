@@ -1,0 +1,11 @@
+# ビルドの途中生成物・成果物
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Releases 用の zip の置き場所
+dist/

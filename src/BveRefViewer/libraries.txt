@@ -1,0 +1,16 @@
+# 外部ライブラリ・共有データの名前の一覧(BveRefViewer の「概要」で使う)
+#
+# 書き方:  表示名 = パスの一部
+#   - パスの一部はフォルダの区切りに沿って比べる(大文字小文字は区別しない)。
+#   - 末尾の * は前方一致(例: BveDcTrainPack* は BveDcTrainPack-master にも一致する)。
+#   - 車両・路線のフォルダの外から読んでいるファイルだけが対象。
+#   - # 以降はコメント。
+#
+# 次の4つは最初から入っている(ここに書かなくてよい。同じパスの一部を書くと表示名を変えられる):
+#   JR線車両パック   = Rock_On\Train\JR
+#   気動車車両パック = BveDcTrainPack*
+#   GeneralAtsPlugin = GeneralAtsPlugin
+#   Nagoya_Common    = Nagoya_Common
+#
+# 追加の例(行頭の # を外すと有効になる):
+# 京急共通サウンド = Sound_Common
